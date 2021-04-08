@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 60vh;
+  margin: 50px auto;
+  border-radius: 15px;
+  background-color: khaki;
+  color: rgb(24, 23, 23);
+}
+
+.container_dadi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 15px auto;
+}
+
+.dadi{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  margin: 10px 20px;
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
